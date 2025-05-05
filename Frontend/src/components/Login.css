@@ -1,0 +1,116 @@
+/* Login.css */
+
+/*.login-container {
+    background-image: url('https://source.unsplash.com/1600x900/?bus,city');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-card {
+    width: 700px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .left-section {
+    background-color: rgba(128, 0, 128, 0.7);
+    padding: 30px;
+  }
+  
+  .right-section {
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  
+  .right-section h3 {
+    color: #333;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    background-color: #6c63ff; 
+    border: none;
+  }
+  
+  a {
+    color: #6c63ff;
+  }
+  
+  a:hover {
+    color: #4a4aee;
+    text-decoration: underline;
+  }
+  */
+
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #b993d6, #8ca6db);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .login-card {
+    width: 90%;
+    max-width: 950px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .left-section {
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    min-height: 100%;
+  }
+  
+  .right-section {
+    padding: 40px 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  form label {
+    font-weight: 500;
+  }
+  
+  form input {
+    border-radius: 8px;
+  }
+  
+  form button {
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .login-card {
+      flex-direction: column;
+    }
+  
+    .right-section {
+      display: none;
+    }
+  
+    .left-section {
+      width: 100%;
+    }
+  }
+  
+  

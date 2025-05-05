@@ -1,0 +1,51 @@
+/* Register.css */
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?city,people');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .register-card {
+    width: 400px;
+    background-color: #78c4f4;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+  }
+  
+  .btn-primary {
+    background-color: #6c63ff; 
+    border: none;
+  }
+  
+  a {
+    color: #6c63ff;
+  }
+  
+  a:hover {
+    color: #4a4aee;
+    text-decoration: underline;
+  }
+  
+  .background-color {
+    background-color: #0fb93d(201 14% 19%); 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+
+  
